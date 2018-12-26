@@ -21,9 +21,8 @@ cordova plugin add ./cordova-plugin-XJMapSDK
 
 
 ## 进入 IOS 和 Android 平台查看相关的 README 进行设置
-
- #### **[iOS README](https://github.com/ipsmap/cordova-XJMapSDK-demo/blob/master/platforms/ios/README.md)**
- #### **[Android README](https://github.com/ipsmap/cordova-XJMapSDK-demo/blob/master/platforms/android/README.md)** 
+ #### **[iOS README](https://github.com/xunji-iot/cordova-XJMapSDK-demo/blob/master/platforms/ios/README.md)**
+ #### **[Android README](https://github.com/xunji-iot/cordova-XJMapSDK-demo/blob/master/platforms/android/README.md)** 
 
 
 ### 参考文档如下
