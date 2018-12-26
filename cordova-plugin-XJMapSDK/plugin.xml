@@ -1,0 +1,10 @@
+<?xml version='1.0' encoding='utf-8'?>
+<plugin id="cordova-plugin-XJMapSDK" version="0.0.1" xmlns="http://apache.org/cordova/ns/plugins/1.0" xmlns:android="http://schemas.android.com/apk/res/android">
+	<name>cordova-plugin-XJMapSDK</name>
+	<js-module name="XJMapSDK" src="www/XJMapSDKPlugin.js"><clobbers target="cordova.plugins.XJMapSDK" /></js-module>
+	<platform name="ios"><config-file parent="/*" target="config.xml"><feature name="cordova-plugin-XJMapSDK"><param name="ios-package" value="XJMapSDKPlugin" /></feature></config-file><header-file src="src/ios/APIKey.h" />
+    <header-file src="src/ios/XJMapSDKPlugin.h" />
+    <source-file src="src/ios/XJMapSDKPlugin.m" />
+    <header-file src="src/ios/ExampleLocationViewController.h" />
+    <source-file src="src/ios/ExampleLocationViewController.m" />
+    <framework src="XJMapSDK" type="podspec" spec="~> 1.0.0" /></platform></plugin>
