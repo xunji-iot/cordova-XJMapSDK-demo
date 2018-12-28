@@ -35,7 +35,7 @@ var app = {
       
       document.getElementById("item-showMap").onclick=function(){
           //显示地图
-          cordova.plugins.XJMapSDK.showMap();
+          cordova.plugins.XJMapSDK.showMap("3aBi8Pl1oy");
 //            cordova.exec((winParam)=>{
 //                         console.log('ssssss', winParam);
 //                         },
@@ -48,17 +48,17 @@ var app = {
       };
       document.getElementById("item-naviTo").onclick=function(){
           //导航到具体位置
-//          cordova.plugins.XJMapSDK.naviTo( "3aBi8Pl1oy", "服务台", "10000");
-            cordova.exec((winParam)=>{
-                         console.log('ssssss', winParam);
-                         },
-                         (error)=>{
-                         console.error(error);
-                         },
-                         "cordova-plugin-XJMapSDK",
-                         "naviTo",
-                         [ "3aBi8Pl1oy","服务台", "10000"]
-                         );
+          cordova.plugins.XJMapSDK.naviTo( "3aBi8Pl1oy", "服务台", "10000");
+//            cordova.exec((winParam)=>{
+//                         console.log('ssssss', winParam);
+//                         },
+//                         (error)=>{
+//                         console.error(error);
+//                         },
+//                         "cordova-plugin-XJMapSDK",
+//                         "naviTo",
+//                         ["服务台", "10000"]
+//                         );
       };
       document.getElementById("item-location").onclick=function(){
           //判断是否在地图内

@@ -32,8 +32,7 @@ public class cordovaPluginXJMapSDK extends CordovaPlugin {
             String name = args.getString(1);
             Logger.e("mapid  "+ mapid +" name "+name+" length:"+args.length());
             if (args.length() >=2){
-//                String targetId = args.getString(2);
-                String targetId = "3aBi8Pl1oy";
+                String targetId = args.getString(2);
                 Logger.d("targetId "+targetId);
                 Logger.e("3333 "+"targetId "+targetId);
                 naviTo(targetId,callbackContext);

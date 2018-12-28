@@ -21,7 +21,8 @@
             "cordova-plugin-XJMapSDK": {}
         },
         "platforms": [
-            "ios"
+            "ios",
+            "android"
         ]
     }
 }
