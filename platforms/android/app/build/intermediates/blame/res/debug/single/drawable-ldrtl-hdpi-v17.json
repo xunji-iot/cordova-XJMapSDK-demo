@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "/Users/liberty/Documents/cordova-XJMapSDK-demo/platforms/android/app/build/intermediates/res/merged/debug/drawable-ldrtl-hdpi-v17/abc_spinner_mtrl_am_alpha.9.png",
+        "source": "/Users/liberty/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.3.1.aar/049873f5d9062d61f03bb761ff09c362/res/drawable-ldrtl-hdpi-v17/abc_spinner_mtrl_am_alpha.9.png"
+    },
+    {
+        "merged": "/Users/liberty/Documents/cordova-XJMapSDK-demo/platforms/android/app/build/intermediates/res/merged/debug/drawable-ldrtl-hdpi-v17/abc_ic_menu_copy_mtrl_am_alpha.png",
+        "source": "/Users/liberty/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.3.1.aar/049873f5d9062d61f03bb761ff09c362/res/drawable-ldrtl-hdpi-v17/abc_ic_menu_copy_mtrl_am_alpha.png"
+    },
+    {
+        "merged": "/Users/liberty/Documents/cordova-XJMapSDK-demo/platforms/android/app/build/intermediates/res/merged/debug/drawable-ldrtl-hdpi-v17/abc_ic_menu_cut_mtrl_alpha.png",
+        "source": "/Users/liberty/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.3.1.aar/049873f5d9062d61f03bb761ff09c362/res/drawable-ldrtl-hdpi-v17/abc_ic_menu_cut_mtrl_alpha.png"
+    }
+]

@@ -1,0 +1,26 @@
+[
+    {
+        "merged": "/Users/liberty/Documents/cordova-XJMapSDK-demo/platforms/android/app/build/intermediates/res/merged/debug/drawable-ldpi-v4/com_mixpanel_android_logo.png",
+        "source": "/Users/liberty/.gradle/caches/transforms-1/files-1.1/mixpanel-android-5.4.4.aar/e6cb99ab630048de8fc6c83f614b9d5e/res/drawable-ldpi-v4/com_mixpanel_android_logo.png"
+    },
+    {
+        "merged": "/Users/liberty/Documents/cordova-XJMapSDK-demo/platforms/android/app/build/intermediates/res/merged/debug/drawable-ldpi-v4/com_mixpanel_android_arrowleft.png",
+        "source": "/Users/liberty/.gradle/caches/transforms-1/files-1.1/mixpanel-android-5.4.4.aar/e6cb99ab630048de8fc6c83f614b9d5e/res/drawable-ldpi-v4/com_mixpanel_android_arrowleft.png"
+    },
+    {
+        "merged": "/Users/liberty/Documents/cordova-XJMapSDK-demo/platforms/android/app/build/intermediates/res/merged/debug/drawable-ldpi-v4/com_mixpanel_android_arrowleft_faded.png",
+        "source": "/Users/liberty/.gradle/caches/transforms-1/files-1.1/mixpanel-android-5.4.4.aar/e6cb99ab630048de8fc6c83f614b9d5e/res/drawable-ldpi-v4/com_mixpanel_android_arrowleft_faded.png"
+    },
+    {
+        "merged": "/Users/liberty/Documents/cordova-XJMapSDK-demo/platforms/android/app/build/intermediates/res/merged/debug/drawable-ldpi-v4/com_mixpanel_android_arrowright.png",
+        "source": "/Users/liberty/.gradle/caches/transforms-1/files-1.1/mixpanel-android-5.4.4.aar/e6cb99ab630048de8fc6c83f614b9d5e/res/drawable-ldpi-v4/com_mixpanel_android_arrowright.png"
+    },
+    {
+        "merged": "/Users/liberty/Documents/cordova-XJMapSDK-demo/platforms/android/app/build/intermediates/res/merged/debug/drawable-ldpi-v4/com_mixpanel_android_arrowright_faded.png",
+        "source": "/Users/liberty/.gradle/caches/transforms-1/files-1.1/mixpanel-android-5.4.4.aar/e6cb99ab630048de8fc6c83f614b9d5e/res/drawable-ldpi-v4/com_mixpanel_android_arrowright_faded.png"
+    },
+    {
+        "merged": "/Users/liberty/Documents/cordova-XJMapSDK-demo/platforms/android/app/build/intermediates/res/merged/debug/drawable-ldpi-v4/com_mixpanel_android_checkmark.png",
+        "source": "/Users/liberty/.gradle/caches/transforms-1/files-1.1/mixpanel-android-5.4.4.aar/e6cb99ab630048de8fc6c83f614b9d5e/res/drawable-ldpi-v4/com_mixpanel_android_checkmark.png"
+    }
+]

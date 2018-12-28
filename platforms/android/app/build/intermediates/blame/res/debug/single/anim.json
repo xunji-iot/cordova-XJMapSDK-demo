@@ -1,0 +1,90 @@
+[
+    {
+        "merged": "/Users/liberty/Documents/cordova-XJMapSDK-demo/platforms/android/app/build/intermediates/res/merged/debug/anim/design_snackbar_out.xml",
+        "source": "/Users/liberty/.gradle/caches/transforms-1/files-1.1/design-25.3.1.aar/0c660758af25d86e6f020dd9d159cfee/res/anim/design_snackbar_out.xml"
+    },
+    {
+        "merged": "/Users/liberty/Documents/cordova-XJMapSDK-demo/platforms/android/app/build/intermediates/res/merged/debug/anim/abc_popup_exit.xml",
+        "source": "/Users/liberty/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.3.1.aar/049873f5d9062d61f03bb761ff09c362/res/anim/abc_popup_exit.xml"
+    },
+    {
+        "merged": "/Users/liberty/Documents/cordova-XJMapSDK-demo/platforms/android/app/build/intermediates/res/merged/debug/anim/abc_slide_out_top.xml",
+        "source": "/Users/liberty/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.3.1.aar/049873f5d9062d61f03bb761ff09c362/res/anim/abc_slide_out_top.xml"
+    },
+    {
+        "merged": "/Users/liberty/Documents/cordova-XJMapSDK-demo/platforms/android/app/build/intermediates/res/merged/debug/anim/ipsmap_slide_in_bottom.xml",
+        "source": "/Users/liberty/.gradle/caches/transforms-1/files-1.1/map-0.1.4.aar/586240777ae24eb353fbc74722404cf2/res/anim/ipsmap_slide_in_bottom.xml"
+    },
+    {
+        "merged": "/Users/liberty/Documents/cordova-XJMapSDK-demo/platforms/android/app/build/intermediates/res/merged/debug/anim/com_mixpanel_android_fade_out.xml",
+        "source": "/Users/liberty/.gradle/caches/transforms-1/files-1.1/mixpanel-android-5.4.4.aar/e6cb99ab630048de8fc6c83f614b9d5e/res/anim/com_mixpanel_android_fade_out.xml"
+    },
+    {
+        "merged": "/Users/liberty/Documents/cordova-XJMapSDK-demo/platforms/android/app/build/intermediates/res/merged/debug/anim/abc_grow_fade_in_from_bottom.xml",
+        "source": "/Users/liberty/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.3.1.aar/049873f5d9062d61f03bb761ff09c362/res/anim/abc_grow_fade_in_from_bottom.xml"
+    },
+    {
+        "merged": "/Users/liberty/Documents/cordova-XJMapSDK-demo/platforms/android/app/build/intermediates/res/merged/debug/anim/design_fab_out.xml",
+        "source": "/Users/liberty/.gradle/caches/transforms-1/files-1.1/design-25.3.1.aar/0c660758af25d86e6f020dd9d159cfee/res/anim/design_fab_out.xml"
+    },
+    {
+        "merged": "/Users/liberty/Documents/cordova-XJMapSDK-demo/platforms/android/app/build/intermediates/res/merged/debug/anim/abc_shrink_fade_out_from_bottom.xml",
+        "source": "/Users/liberty/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.3.1.aar/049873f5d9062d61f03bb761ff09c362/res/anim/abc_shrink_fade_out_from_bottom.xml"
+    },
+    {
+        "merged": "/Users/liberty/Documents/cordova-XJMapSDK-demo/platforms/android/app/build/intermediates/res/merged/debug/anim/design_fab_in.xml",
+        "source": "/Users/liberty/.gradle/caches/transforms-1/files-1.1/design-25.3.1.aar/0c660758af25d86e6f020dd9d159cfee/res/anim/design_fab_in.xml"
+    },
+    {
+        "merged": "/Users/liberty/Documents/cordova-XJMapSDK-demo/platforms/android/app/build/intermediates/res/merged/debug/anim/abc_fade_in.xml",
+        "source": "/Users/liberty/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.3.1.aar/049873f5d9062d61f03bb761ff09c362/res/anim/abc_fade_in.xml"
+    },
+    {
+        "merged": "/Users/liberty/Documents/cordova-XJMapSDK-demo/platforms/android/app/build/intermediates/res/merged/debug/anim/design_snackbar_in.xml",
+        "source": "/Users/liberty/.gradle/caches/transforms-1/files-1.1/design-25.3.1.aar/0c660758af25d86e6f020dd9d159cfee/res/anim/design_snackbar_in.xml"
+    },
+    {
+        "merged": "/Users/liberty/Documents/cordova-XJMapSDK-demo/platforms/android/app/build/intermediates/res/merged/debug/anim/abc_fade_out.xml",
+        "source": "/Users/liberty/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.3.1.aar/049873f5d9062d61f03bb761ff09c362/res/anim/abc_fade_out.xml"
+    },
+    {
+        "merged": "/Users/liberty/Documents/cordova-XJMapSDK-demo/platforms/android/app/build/intermediates/res/merged/debug/anim/abc_slide_out_bottom.xml",
+        "source": "/Users/liberty/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.3.1.aar/049873f5d9062d61f03bb761ff09c362/res/anim/abc_slide_out_bottom.xml"
+    },
+    {
+        "merged": "/Users/liberty/Documents/cordova-XJMapSDK-demo/platforms/android/app/build/intermediates/res/merged/debug/anim/ipsmap_slide_out_top.xml",
+        "source": "/Users/liberty/.gradle/caches/transforms-1/files-1.1/map-0.1.4.aar/586240777ae24eb353fbc74722404cf2/res/anim/ipsmap_slide_out_top.xml"
+    },
+    {
+        "merged": "/Users/liberty/Documents/cordova-XJMapSDK-demo/platforms/android/app/build/intermediates/res/merged/debug/anim/ipsmap_slide_out_bottom.xml",
+        "source": "/Users/liberty/.gradle/caches/transforms-1/files-1.1/map-0.1.4.aar/586240777ae24eb353fbc74722404cf2/res/anim/ipsmap_slide_out_bottom.xml"
+    },
+    {
+        "merged": "/Users/liberty/Documents/cordova-XJMapSDK-demo/platforms/android/app/build/intermediates/res/merged/debug/anim/design_bottom_sheet_slide_in.xml",
+        "source": "/Users/liberty/.gradle/caches/transforms-1/files-1.1/design-25.3.1.aar/0c660758af25d86e6f020dd9d159cfee/res/anim/design_bottom_sheet_slide_in.xml"
+    },
+    {
+        "merged": "/Users/liberty/Documents/cordova-XJMapSDK-demo/platforms/android/app/build/intermediates/res/merged/debug/anim/com_mixpanel_android_fade_in.xml",
+        "source": "/Users/liberty/.gradle/caches/transforms-1/files-1.1/mixpanel-android-5.4.4.aar/e6cb99ab630048de8fc6c83f614b9d5e/res/anim/com_mixpanel_android_fade_in.xml"
+    },
+    {
+        "merged": "/Users/liberty/Documents/cordova-XJMapSDK-demo/platforms/android/app/build/intermediates/res/merged/debug/anim/design_bottom_sheet_slide_out.xml",
+        "source": "/Users/liberty/.gradle/caches/transforms-1/files-1.1/design-25.3.1.aar/0c660758af25d86e6f020dd9d159cfee/res/anim/design_bottom_sheet_slide_out.xml"
+    },
+    {
+        "merged": "/Users/liberty/Documents/cordova-XJMapSDK-demo/platforms/android/app/build/intermediates/res/merged/debug/anim/abc_slide_in_bottom.xml",
+        "source": "/Users/liberty/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.3.1.aar/049873f5d9062d61f03bb761ff09c362/res/anim/abc_slide_in_bottom.xml"
+    },
+    {
+        "merged": "/Users/liberty/Documents/cordova-XJMapSDK-demo/platforms/android/app/build/intermediates/res/merged/debug/anim/abc_slide_in_top.xml",
+        "source": "/Users/liberty/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.3.1.aar/049873f5d9062d61f03bb761ff09c362/res/anim/abc_slide_in_top.xml"
+    },
+    {
+        "merged": "/Users/liberty/Documents/cordova-XJMapSDK-demo/platforms/android/app/build/intermediates/res/merged/debug/anim/ipsmap_slide_in_top.xml",
+        "source": "/Users/liberty/.gradle/caches/transforms-1/files-1.1/map-0.1.4.aar/586240777ae24eb353fbc74722404cf2/res/anim/ipsmap_slide_in_top.xml"
+    },
+    {
+        "merged": "/Users/liberty/Documents/cordova-XJMapSDK-demo/platforms/android/app/build/intermediates/res/merged/debug/anim/abc_popup_enter.xml",
+        "source": "/Users/liberty/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.3.1.aar/049873f5d9062d61f03bb761ff09c362/res/anim/abc_popup_enter.xml"
+    }
+]

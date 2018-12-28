@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "/Users/liberty/Documents/cordova-XJMapSDK-demo/platforms/android/app/build/intermediates/res/merged/debug/xml/update_cache_path.xml",
+        "source": "/Users/liberty/.gradle/caches/transforms-1/files-1.1/map-0.1.4.aar/586240777ae24eb353fbc74722404cf2/res/xml/update_cache_path.xml"
+    },
+    {
+        "merged": "/Users/liberty/Documents/cordova-XJMapSDK-demo/platforms/android/app/build/intermediates/res/merged/debug/xml/config.xml",
+        "source": "/Users/liberty/Documents/cordova-XJMapSDK-demo/platforms/android/app/src/main/res/xml/config.xml"
+    }
+]

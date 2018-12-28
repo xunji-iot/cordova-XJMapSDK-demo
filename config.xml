@@ -25,4 +25,5 @@
     </platform>
     <plugin name="cordova-plugin-XJMapSDK" spec="./cordova-plugin-XJMapSDK" />
     <engine name="ios" spec="^4.5.5" />
+    <engine name="android" spec="^7.1.4" />
 </widget>
