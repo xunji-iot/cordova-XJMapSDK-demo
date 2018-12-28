@@ -18,8 +18,12 @@
     @try {
         //显示地图
         // [XJShareConfig showSharePlatforms:@[@(XJShareTypeWeChat), @(XJShareTypeQQ), @(XJShareTypeSMS)]];
-        
-        XJMapViewController *vc = [[XJMapViewController alloc] initWithMapId:(NSString *)MapId];
+        NSString *mapId = @"";
+        if (command.arguments.count >= 1) {
+            mapId = command.arguments[0];
+        }
+
+        XJMapViewController *vc = [[XJMapViewController alloc] initWithMapId:mapId];
         
         //可以使用其他方式弹出界面，如navigationController
         CDVAppDelegate* delegate = [UIApplication sharedApplication].delegate;
@@ -37,14 +41,16 @@
     CDVPluginResult* pluginResult = nil;
     @try {
         //导航到具体地点
+        NSString *mapId = @"";
         NSString *targetName = @"";
         NSString *targetId = @"";
         if (command.arguments.count >= 2) {
-            targetName = command.arguments[0];
-            targetId = command.arguments[1];
+            mapId = command.arguments[0];
+            targetName = command.arguments[1];
+            targetId = command.arguments[2];
         }
         
-        XJMapViewController *vc = [[XJMapViewController alloc] initWithMapId:(NSString *)MapId targetName:targetName targetId:targetId];
+        XJMapViewController *vc = [[XJMapViewController alloc] initWithMapId:(NSString *)mapId targetName:targetName targetId:targetId];
         
         //可以使用其他方式弹出界面，如navigationController
         CDVAppDelegate* delegate = [UIApplication sharedApplication].delegate;
