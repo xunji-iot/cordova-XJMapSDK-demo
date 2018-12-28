@@ -35,7 +35,7 @@ var app = {
       
       document.getElementById("item-showMap").onclick=function(){
           //显示地图
-          cordova.plugins.XJMapSDK.showMap();
+          cordova.plugins.XJMapSDK.showMap("3aBi8Pl1oy");
 //            cordova.exec((winParam)=>{
 //                         console.log('ssssss', winParam);
 //                         },
