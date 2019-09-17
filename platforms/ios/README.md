@@ -27,8 +27,9 @@ cordova plugin add ./cordova-plugin-XJMapSDK
 
 
 ### 显示室内地图
+在js中调用该方法并传入地图参数
 ```js
-  cordova.plugins.XJMapSDKPlugin.showMap();
+  cordova.plugins.XJMapSDKPlugin.showMap("3aBi8Pl1oy");
 ```
 ### 导航至具体地址
 ```js
