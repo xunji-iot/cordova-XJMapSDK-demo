@@ -7,7 +7,7 @@ cordova-XJMapSDK-demo 是一套面向 cordova 开发者使用XJMapSDK的demo工�
 暂无
 
 ## 插件引用
-拷贝插件文件夹至项目目录 (相对路径)
+拷贝插件文件夹至项目目录 (相对路径),若警告的话可使用绝对路径
 ```bash
 cordova plugin add ./cordova-plugin-XJMapSDK
 ```
@@ -18,11 +18,20 @@ cordova plugin add ./cordova-plugin-XJMapSDK
 ## 使用说明  
 
 ### SDK初始化
-  在 didFinishLaunchingWithOptions里面添加以下代码即可，appKey为邮件中获取的
-```objective-c
-    //初始化XJMap
-    [XJMapServices setAppKey:appKey];
-    [[XJMapServices sharedInstance] application:application didFinishLaunchingWithOptions:launchOptions];
+  在仿照demo在js中增加以下代码，传入appKey初始化MapSDK
+```js
+  // Application Constructor
+  initialize: function() {
+      document.addEventListener('deviceready', this.onDeviceReady.bind(this), false);
+  },
+
+  // deviceready Event Handler
+  //
+  // Bind any cordova events here. Common events are:
+  // 'pause', 'resume', etc.
+  onDeviceReady: function() {
+    cordova.plugins.XJMapSDK.initMapSDK("pML3zXVvmU");
+  },
 ```
 
 
