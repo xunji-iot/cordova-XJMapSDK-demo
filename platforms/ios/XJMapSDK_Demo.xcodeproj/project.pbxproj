@@ -13,9 +13,9 @@
 		301BF552109A68D80062928A /* libCordova.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 301BF535109A57CC0062928A /* libCordova.a */; };
 		302D95F114D2391D003F00A1 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 302D95EF14D2391D003F00A1 /* MainViewController.m */; };
 		302D95F214D2391D003F00A1 /* MainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 302D95F014D2391D003F00A1 /* MainViewController.xib */; };
+		326322333EBA4AB682B9083E /* ExampleLocationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FDA1AEB998234CD9A7B33FF8 /* ExampleLocationViewController.m */; };
+		627038497DB14A8C90FC6698 /* XJMapSDKPlugin.m in Sources */ = {isa = PBXBuildFile; fileRef = A402CA0D48BC496D8AF503B0 /* XJMapSDKPlugin.m */; };
 		6AFF5BF91D6E424B00AB3073 /* CDVLaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6AFF5BF81D6E424B00AB3073 /* CDVLaunchScreen.storyboard */; };
-		986BEB112EF94DA0A637F7E1 /* ExampleLocationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 882F7838F7004CC689F63A58 /* ExampleLocationViewController.m */; };
-		BEB2FD2501B345CA95EB8E90 /* XJMapSDKPlugin.m in Sources */ = {isa = PBXBuildFile; fileRef = 78DEAE7180284B209B33A79E /* XJMapSDKPlugin.m */; };
 		D5DE8433392E92C72ECFEC63 /* libPods-XJMapSDK_Demo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9FC8EBBDD4EEE08B9472965A /* libPods-XJMapSDK_Demo.a */; };
 /* End PBXBuildFile section */
 
@@ -45,12 +45,12 @@
 
 /* Begin PBXFileReference section */
 		0207DA571B56EA530066E2B4 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = XJMapSDK_Demo/Images.xcassets; sourceTree = SOURCE_ROOT; };
-		14D3C2F8A8E64D5EA8B90930 /* ExampleLocationViewController.h */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.h; name = ExampleLocationViewController.h; path = "cordova-plugin-XJMapSDK/ExampleLocationViewController.h"; sourceTree = "<group>"; };
+		0B52A5EA858C1F4679432E9B /* Pods-XJMapSDK_Demo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XJMapSDK_Demo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-XJMapSDK_Demo/Pods-XJMapSDK_Demo.debug.xcconfig"; sourceTree = "<group>"; };
 		1D3623240D0F684500981E51 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		1D3623250D0F684500981E51 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		1D6058910D05DD3D006BFB54 /* XJMapSDK_Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XJMapSDK_Demo.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		248671B52CB14B70A25B3569 /* APIKey.h */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.h; name = APIKey.h; path = "cordova-plugin-XJMapSDK/APIKey.h"; sourceTree = "<group>"; };
 		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2B7CD8578380465C945D9193 /* ExampleLocationViewController.h */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.h; name = ExampleLocationViewController.h; path = "cordova-plugin-XJMapSDK/ExampleLocationViewController.h"; sourceTree = "<group>"; };
 		301BF52D109A57CC0062928A /* CordovaLib.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; path = CordovaLib/CordovaLib.xcodeproj; sourceTree = "<group>"; };
 		301BF56E109A69640062928A /* www */ = {isa = PBXFileReference; lastKnownFileType = folder; path = www; sourceTree = SOURCE_ROOT; };
 		302D95EE14D2391D003F00A1 /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
@@ -61,15 +61,16 @@
 		3047A5111AB8059700498E2A /* build.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; name = build.xcconfig; path = cordova/build.xcconfig; sourceTree = SOURCE_ROOT; };
 		32CA4F630368D1EE00C91783 /* XJMapSDK_Demo-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "XJMapSDK_Demo-Prefix.pch"; sourceTree = "<group>"; };
 		6AFF5BF81D6E424B00AB3073 /* CDVLaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = CDVLaunchScreen.storyboard; path = XJMapSDK_Demo/CDVLaunchScreen.storyboard; sourceTree = SOURCE_ROOT; };
-		78DEAE7180284B209B33A79E /* XJMapSDKPlugin.m */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.objc; name = XJMapSDKPlugin.m; path = "cordova-plugin-XJMapSDK/XJMapSDKPlugin.m"; sourceTree = "<group>"; };
-		882F7838F7004CC689F63A58 /* ExampleLocationViewController.m */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.objc; name = ExampleLocationViewController.m; path = "cordova-plugin-XJMapSDK/ExampleLocationViewController.m"; sourceTree = "<group>"; };
 		8D1107310486CEB800E47090 /* XJMapSDK_Demo-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "XJMapSDK_Demo-Info.plist"; path = "XJMapSDK_Demo/XJMapSDK_Demo-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = SOURCE_ROOT; };
 		9FC8EBBDD4EEE08B9472965A /* libPods-XJMapSDK_Demo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-XJMapSDK_Demo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		B21DF846023649B89D220DB7 /* XJMapSDKPlugin.h */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.h; name = XJMapSDKPlugin.h; path = "cordova-plugin-XJMapSDK/XJMapSDKPlugin.h"; sourceTree = "<group>"; };
+		A402CA0D48BC496D8AF503B0 /* XJMapSDKPlugin.m */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.objc; name = XJMapSDKPlugin.m; path = "cordova-plugin-XJMapSDK/XJMapSDKPlugin.m"; sourceTree = "<group>"; };
+		D1DFB6D8E33341D59B421984 /* XJMapSDKPlugin.h */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.h; name = XJMapSDKPlugin.h; path = "cordova-plugin-XJMapSDK/XJMapSDKPlugin.h"; sourceTree = "<group>"; };
+		E0E19987312D13C57D953E16 /* Pods-XJMapSDK_Demo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XJMapSDK_Demo.release.xcconfig"; path = "Pods/Target Support Files/Pods-XJMapSDK_Demo/Pods-XJMapSDK_Demo.release.xcconfig"; sourceTree = "<group>"; };
 		EB87FDF31871DA8E0020F90C /* www */ = {isa = PBXFileReference; lastKnownFileType = folder; name = www; path = ../../www; sourceTree = "<group>"; };
 		EB87FDF41871DAF40020F90C /* config.xml */ = {isa = PBXFileReference; lastKnownFileType = text.xml; name = config.xml; path = ../../config.xml; sourceTree = "<group>"; };
 		ED33DF2A687741AEAF9F8254 /* Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Bridging-Header.h"; sourceTree = "<group>"; };
 		F840E1F0165FE0F500CFE078 /* config.xml */ = {isa = PBXFileReference; lastKnownFileType = text.xml; name = config.xml; path = XJMapSDK_Demo/config.xml; sourceTree = "<group>"; };
+		FDA1AEB998234CD9A7B33FF8 /* ExampleLocationViewController.m */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.objc; name = ExampleLocationViewController.m; path = "cordova-plugin-XJMapSDK/ExampleLocationViewController.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -177,11 +178,10 @@
 		307C750510C5A3420062BCA9 /* Plugins */ = {
 			isa = PBXGroup;
 			children = (
-				78DEAE7180284B209B33A79E /* XJMapSDKPlugin.m */,
-				882F7838F7004CC689F63A58 /* ExampleLocationViewController.m */,
-				248671B52CB14B70A25B3569 /* APIKey.h */,
-				B21DF846023649B89D220DB7 /* XJMapSDKPlugin.h */,
-				14D3C2F8A8E64D5EA8B90930 /* ExampleLocationViewController.h */,
+				A402CA0D48BC496D8AF503B0 /* XJMapSDKPlugin.m */,
+				FDA1AEB998234CD9A7B33FF8 /* ExampleLocationViewController.m */,
+				D1DFB6D8E33341D59B421984 /* XJMapSDKPlugin.h */,
+				2B7CD8578380465C945D9193 /* ExampleLocationViewController.h */,
 			);
 			name = Plugins;
 			path = XJMapSDK_Demo/Plugins;
@@ -190,6 +190,8 @@
 		C682C76000F480AE0C1626D9 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
+				0B52A5EA858C1F4679432E9B /* Pods-XJMapSDK_Demo.debug.xcconfig */,
+				E0E19987312D13C57D953E16 /* Pods-XJMapSDK_Demo.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -215,7 +217,7 @@
 				1D60588D0D05DD3D006BFB54 /* Resources */,
 				1D60588E0D05DD3D006BFB54 /* Sources */,
 				1D60588F0D05DD3D006BFB54 /* Frameworks */,
-				0D2DD7B5D4E9998F07E16EAB /* [CP] Embed Pods Frameworks */,
+				1D1F9AC43A6DDEB98AC09B7E /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -240,6 +242,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 1;
 			knownRegions = (
+				English,
 				en,
 			);
 			mainGroup = 29B97314FDCFA39411CA2CEA;
@@ -289,22 +292,26 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		0D2DD7B5D4E9998F07E16EAB /* [CP] Embed Pods Frameworks */ = {
+		1D1F9AC43A6DDEB98AC09B7E /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
+			inputFileListPaths = (
+			);
 			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-XJMapSDK_Demo/Pods-XJMapSDK_Demo-frameworks.sh",
+				"${PODS_ROOT}/Target Support Files/Pods-XJMapSDK_Demo/Pods-XJMapSDK_Demo-frameworks.sh",
 				"${PODS_ROOT}/XJMapSDK/XJMapSDK/XJMapSDK.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/XJMapSDK.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-XJMapSDK_Demo/Pods-XJMapSDK_Demo-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-XJMapSDK_Demo/Pods-XJMapSDK_Demo-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		304B58A110DAC018002A0835 /* Copy www directory */ = {
@@ -350,8 +357,8 @@
 				1D60589B0D05DD56006BFB54 /* main.m in Sources */,
 				1D3623260D0F684500981E51 /* AppDelegate.m in Sources */,
 				302D95F114D2391D003F00A1 /* MainViewController.m in Sources */,
-				BEB2FD2501B345CA95EB8E90 /* XJMapSDKPlugin.m in Sources */,
-				986BEB112EF94DA0A637F7E1 /* ExampleLocationViewController.m in Sources */,
+				627038497DB14A8C90FC6698 /* XJMapSDKPlugin.m in Sources */,
+				326322333EBA4AB682B9083E /* ExampleLocationViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

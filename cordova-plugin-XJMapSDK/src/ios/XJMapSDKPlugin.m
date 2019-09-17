@@ -7,11 +7,31 @@
 
 #import "XJMapSDKPlugin.h"
 #import <XJMapSDK/XJMapSDK.h>
-#import "APIKey.h"
 #import <Cordova/CDVAppDelegate.h>
 #import "ExampleLocationViewController.h"
 
 @implementation XJMapSDKPlugin
+
+- (void)initMapSDK:(CDVInvokedUrlCommand*)command {
+    CDVPluginResult* pluginResult = nil;
+    @try {
+        //初始化SDK
+        NSString *appKey = @"";
+        if (command.arguments.count >= 1) {
+            appKey = command.arguments[0];
+        }
+
+    //初始化XJMap
+    [XJmapServices setAppKey:appKey];
+    [[XJmapServices sharedInstance] application:[UIApplication sharedApplication] didFinishLaunchingWithOptions:nil];
+        
+    pluginResult = [CDVPluginResult resultWithStatus:CDVCommandStatus_OK messageAsString:@"initSDK ok"];
+    } @catch (NSException *exception) {
+        pluginResult = [CDVPluginResult resultWithStatus:CDVCommandStatus_ERROR];
+    }
+
+    [self.commandDelegate sendPluginResult:pluginResult callbackId:command.callbackId];
+}
 
 - (void)showMap:(CDVInvokedUrlCommand*)command {
     CDVPluginResult* pluginResult = nil;

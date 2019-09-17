@@ -14,12 +14,11 @@
         </feature>
     </config-file>
 
-    <header-file src="src/ios/APIKey.h" />
     <header-file src="src/ios/XJMapSDKPlugin.h" />
     <source-file src="src/ios/XJMapSDKPlugin.m" />
     <header-file src="src/ios/ExampleLocationViewController.h" />
     <source-file src="src/ios/ExampleLocationViewController.m" />
-    <framework spec="~&gt; 1.0.0" src="XJMapSDK" type="podspec" />
+    <framework spec="~> 1.0.0" src="XJMapSDK" type="podspec" />
 </platform>
 
 <platform name="android">

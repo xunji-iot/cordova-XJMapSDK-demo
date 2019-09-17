@@ -27,25 +27,25 @@
 
 #import "AppDelegate.h"
 #import "MainViewController.h"
-#import <XJMapSDK/XJMapSDK.h>
-#import "APIKey.h"
+//#import <XJMapSDK/XJMapSDK.h>
+//#import "APIKey.h"
 
 @implementation AppDelegate
 
 - (BOOL)application:(UIApplication*)application didFinishLaunchingWithOptions:(NSDictionary*)launchOptions
 {
-    //初始化Ipsmap
-    [XJmapServices setAppKey:(NSString *)APIKey];
-    
-    //检测位置共享口令是否存在
-    //[[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(ipsReceiveShareInfo:) name:IpsReceiveShareInfoNotification object:nil];
-    [[XJmapServices sharedInstance] application:application didFinishLaunchingWithOptions:launchOptions];
-    
-    //登录成功后或者获取到用户信息后调用
-    XJUserInfo *userInfo = [XJUserInfo new];
-    userInfo.name = @"张三";
-    userInfo.phoneNumber = @"13888888888";
-    [XJmapServices sharedInstance].userInfo = userInfo;
+//    //初始化Ipsmap
+//    [XJmapServices setAppKey:(NSString *)APIKey];
+//
+//    //检测位置共享口令是否存在
+//    //[[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(ipsReceiveShareInfo:) name:IpsReceiveShareInfoNotification object:nil];
+//    [[XJmapServices sharedInstance] application:application didFinishLaunchingWithOptions:launchOptions];
+//
+//    //登录成功后或者获取到用户信息后调用
+//    XJUserInfo *userInfo = [XJUserInfo new];
+//    userInfo.name = @"张三";
+//    userInfo.phoneNumber = @"13888888888";
+//    [XJmapServices sharedInstance].userInfo = userInfo;
     
     self.viewController = [[MainViewController alloc] init];
     return [super application:application didFinishLaunchingWithOptions:launchOptions];
@@ -53,7 +53,7 @@
 
 - (void)applicationWillEnterForeground:(UIApplication *)application {
     // Called as part of the transition from the background to the active state; here you can undo many of the changes made on entering the background.
-    [[XJmapServices sharedInstance] applicationWillEnterForeground:application];
+//    [[XJmapServices sharedInstance] applicationWillEnterForeground:application];
 }
 
 @end

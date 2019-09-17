@@ -27,6 +27,7 @@ var app = {
   // Bind any cordova events here. Common events are:
   // 'pause', 'resume', etc.
   onDeviceReady: function() {
+    cordova.plugins.XJMapSDK.initMapSDK("pML3zXVvmU");
       this.receivedEvent('deviceready');
   },
 

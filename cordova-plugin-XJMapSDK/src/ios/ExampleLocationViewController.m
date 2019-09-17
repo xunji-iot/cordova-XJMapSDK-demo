@@ -8,7 +8,6 @@
 
 #import "ExampleLocationViewController.h"
 #import <XJMapSDK/XJMapSDK.h>
-#import "APIKey.h"
 
 @interface ExampleLocationViewController ()<XJmapLocationDelegate>
     
@@ -31,7 +30,7 @@
     self.manger.locationTimeOut = 20;
     self.manger.delegate = self;
     
-    [self.manger startLocationEngine:(NSString *)MapId];
+    [self.manger startLocationEngine:@"3aBi8Pl1oy"];
 }
     
 - (void)viewDidDisappear:(BOOL)animated {
